@@ -36,11 +36,18 @@ img{
 nav a {
   width: 100px;
   display: block;
-  padding: 20px 15px;
+  padding: 14px 16px;;
   text-decoration: none;
   font-family: arial;
   font-size: 20px;
   color: #D27C2C;
+}
+
+li:hover {
+  /* Change the link color to #111 (black) on hover */
+background-color: #333464;
+
+
 }
  
   /* slide bar */
