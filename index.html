@@ -1,65 +1,40 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
-    <script src="./index.js"></script>
-    <link rel="stylesheet" href="styles/styles.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De buurtcampus Oost - spekjes bieb retour companent</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>De buurtcampus Oost - spekjes bieb retour companent</title>
 </head>
+
 <body>
 
   <header>
-  <nav>
-    <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
-    <ul class="top-nav">
-      <li><a href="#"><b>Home</b></a></li>
-      <li><a href="#"><b>Profiel</b></a></li>
-      <li><a href="#"><b>Plaatsen</b></a></li>
-      <li><a href="#"><b>Zoek</b></a></li>
-    </ul>
-      </nav>       
- </header>
+    <nav>
+      <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
+      <ul class="top-nav">
+        <li><a href="#"><b>Stekjes</b></a></li>
+        <li><a href="#"><b>Ruilen</b></a></li>
+        <li><a href="#"><b> + Stek plaatsen</b></a></li>
+        <li><a href="#"><b>Inloggen</b></a></li>
+      </ul>
+    </nav>
+  </header>
 
- <main class="slider-container">
-  <div class="slider" id="slider">
-    <div class="slide prev-2"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-      
+  <main class="slider-container">
+    <ion-icon id="dislike" name="close-outline"></ion-icon>
+    <div class="swiper" id="swiper">
+      <!-- ALL THE APPENDED CARDS WILL BE INSERTED HERE -->
     </div>
-    <div class="slide prev-1"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-      
-    </div>
-    <div class="slide active"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-      
-    </div>
-    <div class="slide next-1"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-      
-    </div>
-    
-    <div class="slide next-2"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-    </div>
-   
-    <div class="slide"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-    </div>
-    
-    <div class="slide"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-      
-    </div>
-    
-    <div class="slide"><img src="https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100" alt="plant">
-      
-    </div>
+    <ion-icon id="like" name="leaf-outline"></ion-icon>"></ion-icon>
   </main>
-  <!-- <div class="dots">
-    <span></span>
-    <span></span>
-    <span class="active"></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div> -->
+
+  <script src="./card.js"></script>
+  <script src="./script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>

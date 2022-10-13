@@ -1,0 +1,146 @@
+/* GLOBAL STYLES */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
+}
+
+/* HEADER */
+
+header{
+  width: 100%;
+  height: 4rem;
+  position: fixed;
+  background-color: #fff;
+  box-shadow: 1px 0 10px rgba(0,0,0,.15);
+  z-index: 999;
+}
+
+header nav{
+  width: 80%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul{
+  display: flex;
+  gap: 2rem;
+}
+
+header nav ul li a{
+  font-family: arial;
+  font-size: 1rem;
+  color: #D27C2C;
+}
+
+header nav ul a:hover{
+  color: #333464
+}
+
+/* MAIN */
+main{
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main #swiper{
+  height: 50vh;
+  aspect-ratio: 2 / 3;
+  perspective: 1000px;
+  perspective-origin: center 50%;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+main #swiper .card{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 2px 6px 10px rgba(0,0,0,.2);
+  cursor: pointer;
+  user-select: none;
+  transform: 
+    translateZ(calc(-30px * var(--i))) 
+    translateY(calc(-20px * var(--i)))
+    rotate(calc(-4deg * var(--i)));
+}
+
+main #swiper .card img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+/* ICONS */
+#like, #dislike {
+  font-size: 16vh;
+  border-radius: 50%;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+  animation-name: animation1;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  /* don't run animation at the beginning */
+  animation-play-state: paused;
+}
+
+/* ANIMATION TRIGGERS */
+#like.trigger,
+#dislike.trigger {
+  animation-name: animation2;
+}
+
+#like {
+  color: rgb(19, 85, 49);
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#dislike {
+  color: rgb(19, 85, 49);
+  
+}
+
+/* ICON ANIMATION */
+@keyframes animation1 {
+
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes animation2 {
+
+  0%,
+  100% {
+    opacity: 0.2;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
