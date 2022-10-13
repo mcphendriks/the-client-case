@@ -39,7 +39,7 @@ De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantis
         <li><a href="#"><b>Inloggen</b></a></li>
       </ul>
     </nav>
-  </header>```
+  </header>
 
 
 
