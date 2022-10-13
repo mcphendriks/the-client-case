@@ -29,7 +29,7 @@ Dit project is opgebouwd met behulp van de volgende tools:
 De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantische manier om een lijst met links te markeren. Het gebruikt van een lijstelement biedt voordeel dat structuur biedt. 
 ***HTML
 
-``<header>
+`<header>
     <nav>
       <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
       <ul class="top-nav">
@@ -39,7 +39,7 @@ De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantis
         <li><a href="#"><b>Inloggen</b></a></li>
       </ul>
     </nav>
-  </header>
+  </header>`
 
 
 
