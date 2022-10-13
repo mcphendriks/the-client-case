@@ -25,6 +25,10 @@ Dit project is opgebouwd met behulp van de volgende tools:
 * CSS
 * Javascript
 
+
+De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantische manier om een lijst met links te markeren. Het gebruikt van een lijstelement biedt voordeel dat structuur biedt. 
+***HTML
+
 ```<header>
     <nav>
       <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
@@ -35,16 +39,11 @@ Dit project is opgebouwd met behulp van de volgende tools:
         <li><a href="#"><b>Inloggen</b></a></li>
       </ul>
     </nav>
-  </header>```
-
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
+  </header>
 
 
 
-## Bronnen
-
-
-## Licentie
+<h2> THANKYOU FOR YOUR TIME AND LET'S CONTACT! </h2>
 
 
 
