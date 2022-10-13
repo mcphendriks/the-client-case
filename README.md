@@ -17,12 +17,25 @@ De swipe plant, is een webpagina die gebruikt wordt om aan te geven of je wel of
 
 ## Kenmerken
 
-#Dit project is opgebouwd met behulp van de volgende tools:
+Dit project is opgebouwd met behulp van de volgende tools:
 * MacOS Monterey versie 12.5.1 
 * Visual code
 * Git
 * HTML 
 * CSS
+* Javascript
+
+```<header>
+    <nav>
+      <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
+      <ul class="top-nav">
+        <li><a href="#"><b>Stekjes</b></a></li>
+        <li><a href="#"><b>Ruilen</b></a></li>
+        <li><a href="#"><b> + Stek plaatsen</b></a></li>
+        <li><a href="#"><b>Inloggen</b></a></li>
+      </ul>
+    </nav>
+  </header>```
 
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
