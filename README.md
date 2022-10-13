@@ -41,9 +41,7 @@ De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantis
       </ul>
     </nav>
   </header>
-
-'''
-
+```
 
 
 <h2> THANKYOU FOR YOUR TIME AND LET'S CONTACT! </h2>
