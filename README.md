@@ -25,6 +25,9 @@ Dit project is opgebouwd met behulp van de volgende tools:
 * CSS
 * Javascript
 
+<br>
+
+* HTML:
 
 De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantische manier om een lijst met links te markeren. Het gebruikt van een lijstelement biedt voordeel dat structuur biedt. 
 
