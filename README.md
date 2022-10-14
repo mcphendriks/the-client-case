@@ -12,6 +12,7 @@
 
 ## Beschrijving
 De swipe plant, is een webpagina die gebruikt wordt om aan te geven of je wel of geen interessen hebt in de plant. Je "swiped" je vinger over het scherm naar rechts ben je geintreseerd (leaf icon) en naar links van je niet geintresseerd (close x)
+<br>
 <img width="500" alt="Screenshot 2022-10-13 at 19 37 01" src="https://user-images.githubusercontent.com/106346778/195667583-763d0dc1-af96-43f3-9e63-4a8d4231ed1e.png">
 
 
