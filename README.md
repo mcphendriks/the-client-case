@@ -1,6 +1,7 @@
-## User Story
- Als buurtbewoner van Amsterdam-Oost wil ik kunnen zien welke stekjes momenteel in de stekjeskast zitten, zodat ik kan overwegen een stekje in te ruilen**
+> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je, zoals altijd, in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
+# Titel
+<!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave
 
@@ -9,47 +10,20 @@
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
 
-
 ## Beschrijving
-De swipe plant, is een webpagina die gebruikt wordt om aan te geven of je wel of geen interessen hebt in de plant. Je "swiped" je vinger over het scherm naar rechts ben je geintreseerd (leaf-icon) en naar links van je niet geintresseerd (close-x)
-<br>
-<img width="500" alt="Screenshot 2022-10-13 at 19 37 01" src="https://user-images.githubusercontent.com/106346778/195667583-763d0dc1-af96-43f3-9e63-4a8d4231ed1e.png">
-
+<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+<!-- Voeg een mooie poster visual toe 📸 -->
+<!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
-
-Dit project is opgebouwd met behulp van de volgende tools:
-* MacOS Monterey versie 12.5.1 
-* Visual code
-* Git
-* HTML 
-* CSS
-* Javascript
-
-<br>
-
-* HTML:
-
-De navigatiebalk is op gebouwd met de "unordered list". Dit is de meest semantische manier om een lijst met links te markeren. Het gebruikt van een lijstelement biedt voordeel dat structuur biedt. 
-
-<br>
-
-```
-<header>
-    <nav>
-      <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
-      <ul class="top-nav">
-        <li><a href="#"><b>Stekjes</b></a></li>
-        <li><a href="#"><b>Ruilen</b></a></li>
-        <li><a href="#"><b> + Stek plaatsen</b></a></li>
-        <li><a href="#"><b>Inloggen</b></a></li>
-      </ul>
-    </nav>
-  </header>
-```
-
-
-<h2> THANKYOU FOR YOUR TIME AND LET'S CONTACT! </h2>
+<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 
 
 
+## Bronnen
+
+## Licentie
+
+![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
+
+This work is licensed under [GNU GPLv3](./LICENSE).
