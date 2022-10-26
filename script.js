@@ -13,6 +13,10 @@ const urls = [
   'https://www.plantje.nl/wp-content/uploads/2022/10/Parthenocissus-Striata-Suikerdruifje-P12-1024-1-600x600.webp'
 ];
 
+const scale= [
+  1, 1.80, 1.13, 1.18, 1.23, 1.28, 1.33
+]
+
 // VARIABLE TO TRACK THE COUNT OF CARDS
 let cardCount = 0;
 
