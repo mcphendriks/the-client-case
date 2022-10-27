@@ -3,6 +3,7 @@ const swiper = document.querySelector('#swiper');
 const like = document.querySelector('#like');
 const dislike = document.querySelector('#dislike');
 
+
 // IMAGES
 const urls = [
   'https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100',
