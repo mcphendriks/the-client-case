@@ -1,4 +1,4 @@
-// DOM
+// DOM <!--responsible for the functionalitys off the container swiper and like and dislike button -->
 const swiper = document.querySelector('#swiper');
 const like = document.querySelector('#like');
 const dislike = document.querySelector('#dislike');
@@ -13,17 +13,18 @@ const urls = [
   'https://www.plantje.nl/wp-content/uploads/2022/10/Parthenocissus-Striata-Suikerdruifje-P12-1024-1-600x600.webp'
 ];
 
-const scale= [
-  1, 1.80, 1.13, 1.18, 1.23, 1.28, 1.33
+const scale = [
+  1, 1.08, 1.13, 1.18, 1.23, 1.28, 1.33
 ]
 
 // VARIABLE TO TRACK THE COUNT OF CARDS
 let cardCount = 0;
 
 // FUNCTION TO APPEND A CARD
-function appendNewCard() {
+const appendNewCard = () => {
+  //create an object with the use of the new keyword
   const card = new Card({
-    imageUrl: urls[cardCount % urls.length], // MAKES THE INDEX NOT EXCEED THE COUNT OF IMAGES. ALSO NECESSARY FOR IMAGE LOOPING
+    imageUrl: urls[cardCount % urls.length], //Haalt alle opjecten uit de bovenstaande array ALSO NECESSARY FOR IMAGE LOOPING
     onDismiss: appendNewCard,
     onLike: () => {
       like.style.animationPlayState = 'running';
@@ -42,6 +43,7 @@ function appendNewCard() {
   cards.forEach((card, index) => {
     // ADD A NEW PROPERTY RESPONSIBLE FOR THE TILT
     card.style.setProperty('--i', index);
+    card.style.setProperty('--scale',scale[index])
   });
 }
 
