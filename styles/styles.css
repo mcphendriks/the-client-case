@@ -149,6 +149,12 @@ body{
 
 /*STEKJES RUILEN PAGE*/
 
+.gallery-card {
+  top: 6rem;
+  position: relative;
+  
+}
+
 .ul-card {
   display:flex;
   flex-wrap: wrap;
