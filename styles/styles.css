@@ -153,5 +153,12 @@ body{
   display:flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 2rem;
   
+}
+
+.gallery-card li img{
+  flex-basis: 21rem; /*widht*/
+  border-radius: 10px;
+
 }
