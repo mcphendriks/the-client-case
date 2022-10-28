@@ -14,7 +14,7 @@ body{
 
 
 /* HEADER */
-header{
+.nav-header{
   width: 100%;
   height: 6rem;
   position: fixed;
@@ -24,7 +24,7 @@ header{
 }
 
 
-header nav{
+.nav-header .nav-nav{
   width: 80%;
   height: 100%;
   margin: auto;
@@ -33,24 +33,24 @@ header nav{
   align-items: center;
 }
 
-header nav ul{
+.nav-header .nav-nav .nav-ul{
   display: flex;
   gap: 2rem;
 }
 
-header nav ul li a{
+.nav-header .nav-nav .nav-ul .nav-li a{
   font-family: arial,Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
   color: #D27C2C;
   
 }
 
-header nav ul a:hover{
+.nav-header .nav-nav .nav-ul a:hover{
   color: #333464
 }
 
 /* MAIN */
-main{
+.slider-container{
   height: 100vh;
   width: 100vw;
   overflow: hidden;
@@ -59,7 +59,7 @@ main{
   align-items: center;
 }
 
-main #swiper{
+.slider-container #swiper{
   height: 50vh;
   aspect-ratio: 2 / 3;
   perspective: 1000px;
@@ -68,7 +68,7 @@ main #swiper{
   position: relative;
 }
 
-main #swiper .card{
+.slider-container #swiper .card{
   width: 100%;
   height: 100%;
   position: absolute;
@@ -84,7 +84,7 @@ main #swiper .card{
   /* rotate(calc(4deg * var(--i))); */
 }
 
-main #swiper .card img{
+.slider-container #swiper .card img{
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -147,3 +147,11 @@ main #swiper .card img{
   }
 }
 
+/*STEKJES RUILEN PAGE*/
+
+.ul-card {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
