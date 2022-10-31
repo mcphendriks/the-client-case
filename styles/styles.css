@@ -179,26 +179,58 @@ main {
   border-radius: 10px;
 }
 
+/*PLANT INFORMATION*/
 .content {
-  height: 200px;
+  height: 150px;
   width: 500px;
   padding: 6px;
   box-sizing: border-box;
   position: absolute;
   background-color: rgba(27, 27, 27, 0.5);
   color: green;
+  bottom: 420px;
 }
 
- .content h2 {
+ h2{
   margin: 10px;
   font-size: 40px
 }
 
-.content p {
+ p{
   margin: 10px;
   font-size: 20px;
+  visibility: hidden;
+  opacity: 0;
 }
+
+/*BUTTON FOR THE TRADE PLANT*/
+
+button {
+  cursor: pointer;
+  display: flex;
+  flex-direction: flex-end;
+  color: rgb(141, 62, 107);
+  background-color: red;
+  padding: 0.5em 1.25em;
+  border-radius: 20px;
+  
+
+}
+ 
+
 
 .card:hover {
   cursor: pointer;
 }
+
+.card:hover .content {
+  height: 220px;
+  bottom: 420px;
+  background: lightblue;
+}
+
+.card:hover p {
+  opacity: 1;
+  visibility: visible;
+}
+
