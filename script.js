@@ -7,7 +7,7 @@ const dislike = document.querySelector('#dislike');
 // IMAGES
 const urls = [
   'https://plnts.com/_next/image?url=https%3A%2F%2Fwebshop.plnts.com%2Fmedia%2Fcatalog%2Fproduct%2Fcache%2Faa5d334f459227518b6c3cf7ea9d29ed%2Fp%2Fl%2Fpl.xl.005-2.jpg&w=750&q=100',
-  'https://www.hplantje.nl/wp-content/uploads/2019/01/Schefflera-op-lava-steen-plantje-1024-600x600.jpg.webp',
+  'https://www.plantje.nl/wp-content/uploads/2019/01/Schefflera-op-lava-steen-plantje-1024-600x600.jpg.webp',
   'https://www.plantje.nl/wp-content/uploads/2022/05/phlebodium-aureum-P17-1024-1-600x600.jpg.webp',
   'https://www.plantje.nl/wp-content/uploads/2021/09/Aeschynanthus-Japhrolepis-Lifestyle-600x600.jpg.webp',
   'https://www.plantje.nl/wp-content/uploads/2021/09/Spathiphyllum-Torelli-p12-1-600x600.jpg.webp',

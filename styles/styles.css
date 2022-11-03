@@ -36,21 +36,26 @@ body{
 
 .nav-header .nav-nav .nav-ul{
   display: flex;
-  gap: 2rem;
+  gap: 4rem;
 }
 
 .nav-header .nav-nav .nav-ul .nav-li a{
   font-family: arial,Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
-  color: #D27C2C;
+  color: #333464 ;
   
 }
 
 .nav-header .nav-nav .nav-ul a:hover{
-  color: #333464
+  color: rgb(242, 111, 33)
+
+  
 }
 
-/* MAIN */
+/*MAIN*/
+
+
+/* SECTION */
 .slider-container{
   height: 100vh;
   width: 100vw;
@@ -119,7 +124,7 @@ body{
 }
 
 #dislike {
-  color: rgb(19, 85, 49);
+  color: rgb(3, 33, 16);
   
 }
 
@@ -147,6 +152,7 @@ body{
     opacity: 1;
   }
 }
+
 
 /*STEKJES RUILEN PAGE*/
 
