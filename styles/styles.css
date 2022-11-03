@@ -52,10 +52,8 @@ body{
   
 }
 
-/*MAIN*/
 
-
-/* SECTION */
+/* MAIN*/
 .slider-container{
   height: 100vh;
   width: 100vw;
@@ -187,13 +185,13 @@ main {
 
 /*PLANT INFORMATION*/
 .content {
-  width: 500px;
+  width: 100%;
   padding: 20px 20px;
   box-sizing: border-box;
   position: absolute;
   background-color: rgba(140, 109, 30, 0.5);
   color: green;
-  bottom: -10px; 
+  bottom: -42px; 
 }
 
  h2{
@@ -211,14 +209,16 @@ main {
 
 /*BUTTON FOR THE TRADE PLANT*/
 
-.button svg{
+.button svg {
   cursor: pointer;
-  border-radius: 10px; 
-  padding: 0.5rem 1.25em;
-  float: right;
-  margin-right: 90px; 
+  border-radius: 50px;  
+  position: absolute;
   border: none;
-  font-size: 1px;
+  font-size: 2px;
+  top: 7px;
+  right: 20px;
+  
+  
 }
 
 .content button {
