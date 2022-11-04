@@ -53,7 +53,7 @@ body{
 }
 
 
-/* MAIN*/
+/* MAIN CONTAINER*/
 .slider-container{
   height: 100vh;
   width: 100vw;
@@ -154,7 +154,7 @@ body{
 
 /*STEKJES RUILEN PAGE*/
 
-main {
+.container {
   margin-top: 12rem;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
@@ -194,12 +194,12 @@ main {
   bottom: -42px; 
 }
 
- h2{
+ .content h2{
   margin: 10px;
   font-size: 40px
 }
 
- p {
+.content p {
   margin: 10px;
   font-size: 20px;
   visibility: hidden;
@@ -241,5 +241,41 @@ main {
   
 }
 
+/*CONTACT FORM*/
 
+.contact-title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 15rem;
+  
+ 
+}
+
+.contact-title .contact-h1 {
+  font-size: 32px;
+  line-height: 6rem;
+  color:rgb(113, 89, 89)
+
+}
+
+.contact-title .contact-intro {
+  font-size: 16px; 
+}
+
+#contact-form {
+  text-align: center;
+  margin-top: 50px;
+  background-color: transparent;
+}
+
+.form-control {
+  background: transparent;
+  border: none;
+  outline: none; 
+  border-bottom: 1px solid gray;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+  
+}
 
