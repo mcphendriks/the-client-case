@@ -279,3 +279,46 @@ body{
   
 }
 
+/* HAMBURGER MENU mobile */
+
+@media only screen and (max-width: 720px){
+  .nav-header .nav-ulv{
+    position: absolute;
+    background: rgb(235, 235, 235);
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 13rem;
+    z-index: -1;
+    display: flex;
+    align-items: end;
+    top: -20rem;
+    transition: all .3s ease;
+    opacity: 0;
+  }
+
+  .nav-ul .wrapper{
+    justify-content: end;
+    align-items: start;
+    flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    width: 80%;
+    margin-inline: auto;
+    padding-bottom: 1rem;
+  }
+
+  .nav-header .menu-icon{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .nav-header .responsive{
+    top: 0;
+    opacity: 1;
+  }
+
+}
+
+
