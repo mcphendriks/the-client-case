@@ -105,12 +105,32 @@ label {
 }
 
 #Form2{
-    left: -450px
+    left: 450px
 }
 
-#Form3 {
-
-
+ #Step-row {
+    width: 360px;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 -1px 5px -1px #000;
+    position: relative;
 }
+
+.Step-col {
+    width: 120px;
+    text-align: center; 
+    color: rgb(100, 53, 53);
+    position: relative;
+} 
+
+#Progres {
+    position: absolute;
+    height: 100%;
+    width: 120px;
+    background: orange;
+}
+   
 
 
