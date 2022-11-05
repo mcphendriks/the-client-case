@@ -1,0 +1,39 @@
+/*CONTACT FORM*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #999ac5;;
+}
+
+.logo {
+    margin-top: 20px;
+    padding: 20px 20px;
+    font-size: 80px;
+}
+
+.contact-form {
+    width: 650px;
+    height: 700px;
+    margin: 8% auto;
+    background: aliceblue;
+    border-radius: 10px;
+    position: relative;
+}
+.header-title, .header-intro {
+    color: rgb(255, 255, 255);  
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.form-title, .form-intro {
+    text-align: center;
+
+}
+
+
+
