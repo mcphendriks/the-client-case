@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
 }
 
 body {
@@ -25,6 +26,8 @@ body {
     background: aliceblue;
     border-radius: 10px;
     position: relative;
+    /*THE OVERFLOW HIDDEN IS USED THAT THE FORMS FITS INTO THE BOX FORM*/
+    overflow: hidden;
 }
 
 .header-title {
@@ -100,11 +103,11 @@ label {
     margin-bottom: 3px;
 }
 
-#Form1{
-    left: 450px;
+#Form2{
+    left: -450px;
 }
 
-#Form2{
+#Form3{
     left: 450px
 }
 
@@ -116,6 +119,7 @@ label {
     align-items: center;
     box-shadow: 0 -1px 5px -1px #000;
     position: relative;
+    
 }
 
 .Step-col {
@@ -130,6 +134,7 @@ label {
     height: 100%;
     width: 120px;
     background: orange;
+    transition: 1s;
 }
    
 

@@ -8,6 +8,8 @@
     <title>Contact form</title>
 </head>
 <body>
+
+
   <header>
     <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" class="logo" alt="logo"></a>
     <h1 class="header-title">Hoi, Wat leuk dat je een plantje wil ruilen met je buurtgenoot</h1>
@@ -15,12 +17,12 @@
   </header>
   
 
-  <div class="contact-form">
+  <main class="contact-form">
     <form id="Form1"> 
       <h3>GEKOZEN PLANT</h3>
-            <input type="text" placeholder="Email" required>
-            <input type="text" placeholder="Email" required>
-            <input type="text" placeholder="Email" required>
+      <img src="https://www.plantje.nl/wp-content/uploads/2021/09/Bonsai-Ficus-Ginseng-p17-2-600x600.jpg.webp"  height="150px"
+      class="img-plant" alt="plant">
+            
             
             <div class="btn-box">
                 <button type="button" id="Volgende1">Volgende</button>
@@ -29,9 +31,6 @@
 
      <form id="Form2"> 
         <h3>HOE RUILEN?</h3>
-              <input type="text" placeholder="Medium" required>
-              <input type="text" placeholder="facebook" required>
-              <input type="text" placeholder="Github" required>
               
               <div class="btn-box">
                   <button type="button" id="Terug2">Terug</button>
@@ -54,13 +53,13 @@
               </div>
        </form>
 
-       <div id="Step-row">
-         <div id="Progres"></div>
-            <div class="Step-col"><small>Stap 1</small></div>
-            <div class="Step-col"><small>Stap 2</small></div>
-            <div class="Step-col"><small>Stap 3</small></div>
-       </div>     
-</div>
+       <ul id="Step-row">
+         <li id="Progres"></li>
+            <li class="Step-col"><small>Stap 1</small></li>
+            <li class="Step-col"><small>Stap 2</small></li>
+            <li class="Step-col"><small>Stap 3</small></li>
+       </ul>     
+    </main>
 
 <script src="./Contact form.js"></script>
 </body>
