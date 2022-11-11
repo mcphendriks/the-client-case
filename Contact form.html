@@ -1,66 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="styles/Contact form.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact form</title>
+  <link rel="stylesheet" href="styles/Contact form.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact form</title>
 </head>
+
 <body>
-
-
   <header>
     <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" class="logo" alt="logo"></a>
-    <h1 class="header-title">Hoi, Wat leuk dat je een plantje wil ruilen met je buurtgenoot</h1>
+    <h1 class="header-title">Hoi, Wat leuk dat je een plantje wilt ruilen met je buurtgenoot!</h1>
     <h2 class="header-intro">Doorloop de onderstaande 3 stappen voor het ruilen van je plantje</h2>
   </header>
-  
 
-  <main class="contact-form">
-    <form id="Form1"> 
-      <h3>GEKOZEN PLANT</h3>
-      <img src="https://www.plantje.nl/wp-content/uploads/2021/09/Bonsai-Ficus-Ginseng-p17-2-600x600.jpg.webp"  height="150px"
-      class="img-plant" alt="plant">
-            
-            
+
+
+  <main class="regForm">
+
+    <div id="step-row">
+      <div id="progress"></div>
+         <li class="step-col"><small>Stap 1</small></li>
+         <li class="step-col"><small>Stap 2</small></li>
+         <li class="step-col"><small>Stap 3</small></li>
+    </div>   
+
+    <!-- <h1 class="form-title">Gekozen plantje</h1> -->
+    
+    <!-- One "tab" for each step in the form: -->
+    <form class="tab1">
+      <h1 class="form-title">Gekozen plantje</h1>
+      <span class="content-tab1">
+      <img src="https://www.plantje.nl/wp-content/uploads/2021/09/Bonsai-Ficus-Ginseng-p17-2-600x600.jpg.webp"
+                class="img-plant" alt="plant">
+                <aside>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil harum sit quis fugit totam culpa ipsum ratione cum minus suscipit, autem repellendus nulla cupiditate porro impedit quaerat numquam! Sed, praesentium.</aside>
+      </span>
+   
             <div class="btn-box">
-                <button type="button" id="Volgende1">Volgende</button>
+                <button type="button">Terug</button>
+                <button type="button">Volgende</button>
             </div>
-     </form>
+         
+    </form>
 
-     <form id="Form2"> 
-        <h3>HOE RUILEN?</h3>
-              
-              <div class="btn-box">
-                  <button type="button" id="Terug2">Terug</button>
-                  <button type="button" id="Volgende2">Volgende </button>
-              </div>
-       </form>
+   
 
-       <form id="Form3">
-       <h3>STUUR EMAIL</h3>
-              <input type="text" placeholder="Name" required>
-              <input type="text" placeholder="Email" required>
-                <label for="text"></label>
-                    <textarea id="text" name="text" rows="5" cols="33">
-                     Hoi Buurtgenoot, Wat leuk dat je een plantje wil ruilen! Ik wil een afspraak inplannen voor....
-                     </textarea>
+    <form class="tab2">
+      <h1 class="form-title">Hoe Ruilen?</h1>
+            <div class="btn-box">
+                <button type="button">Terug</button>
+                <button type="button">Volgende</button>
+            </div>
+    </form>
 
-              <div class="btn-box">
-                  <button type="button" id="Terug3">Terug</button>
-                  <button type="button" id="Verstuurd">Verstuur email</button>
-              </div>
-       </form>
+   
 
-       <ul id="Step-row">
-         <li id="Progres"></li>
-            <li class="Step-col"><small>Stap 1</small></li>
-            <li class="Step-col"><small>Stap 2</small></li>
-            <li class="Step-col"><small>Stap 3</small></li>
-       </ul>     
-    </main>
+    <form class="tab3">
+      <h1 class="form-title">Contact Buurtgenoot!</h1>
+      <input type="text" placeholder="Name" required>
+      <input type="text" placeholder="Email" required>
+      <textarea id="text" name="text" rows="5" cols="33">Hoi Buurtgenoot!</textarea>
+            <div class="btn-box">
+                <button type="button">Terug</button>
+                <button type="button">Volgende</button>
+            </div>
+    </form>
 
-<script src="./Contact form.js"></script>
+  
+      
+
+    
+  </main>
+
+
+
+
+  <script src="./Contact form.js"></script>
 </body>
+
 </html>
