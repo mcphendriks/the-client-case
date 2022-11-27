@@ -2,7 +2,7 @@
 <html lang="nl">
 
 <head>
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/plant-match.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,21 +13,26 @@
 <body>
 
   <header>
-    <nav>
-      <a href="/"><img src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg" alt="logo"></a>
-      <ul class="top-nav">
-        <div class="wrapper">
-          <li><a href="./StekPlaatsen.html"><b>STEK PLAATSEN</b></a></li>
-          <li><a href="./StekRuilen.html"><b>STEK RUILEN</b></a></li>
-          <li><a href="./index.html"><b>STEK MATCH</b></a></li>
-        </div>
+    <nav class="nav-bar">
+      <a href="" class="nav-bar-logo">
+        <img
+          src="https://hvacommunity.sirv.com/Buurtcampus%20Oost-logo.svg"
+          alt="plant" />
+      </a>
+      <ul class="nav-bar-li">
+        <li class="nav-bar-item">
+          <a href="/">Stek Plaatsen</a>
+        </li>
+        <li class="nav-bar-item">
+          <a href="index.html">Terug</a>
+        </li>
       </ul>
-      <div class="menu-icon" onclick="toggleMenu()">
+       <div class="menu-icon" onclick="toggleMenu()">
         <i class="fa fa-bars"></i>
-      </div>
+      </div> 
     </nav>
-  </header>
-
+    <header>
+  
   <main class="slider-container">
     <ion-icon id="dislike" name="close-outline"></ion-icon>
     <div class="swiper" id="swiper">
@@ -36,7 +41,7 @@
     <ion-icon id="like" name="leaf-outline"></ion-icon></ion-icon>
   </main>
 
-  <script src="./card.js"></script>
+  <script src="./plant-match.js"></script>
   <script src="./script.js"></script>
   <script src="./menu.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>

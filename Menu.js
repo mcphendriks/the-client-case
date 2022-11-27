@@ -1,13 +1,13 @@
 // MENU
 const toggleMenu = () => {
-    const topNav = document.querySelector('.top-nav');
+    const navBar = document.querySelector('.nav-bar');
     const menuIcon = document.querySelector('.menu-icon');
 
-    if (topNav.className === 'top-nav') {
-        topNav.className += ' responsive'
+    if (navBar.className === 'nav-bar') {
+        navBar.className += ' responsive'
         menuIcon.style.transform = 'rotate(-90deg)'
     } else {
-        topNav.className = 'top-nav';
+        navBar.className = 'nav-bar';
         menuIcon.style.transform = 'rotate(0)'
     }
 }
