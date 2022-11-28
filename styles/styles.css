@@ -131,6 +131,7 @@ position: relative;
   align-items: center;
   color: #fff;
   padding: 20px 20px;
+  line-height: 2rem;
 }
 
 .main-card-content h1 {
